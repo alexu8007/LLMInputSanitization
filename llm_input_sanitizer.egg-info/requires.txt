@@ -1,3 +1,5 @@
+nltk>=3.6.0
+better-profanity>=0.7.0
 
 [dev]
 pytest>=6.0

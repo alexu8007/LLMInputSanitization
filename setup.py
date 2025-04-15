@@ -26,7 +26,10 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.7",
-    install_requires=[],
+    install_requires=[
+        "nltk>=3.6.0",
+        "better-profanity>=0.7.0",
+    ],
     extras_require={
         "dev": ["pytest>=6.0", "black", "flake8", "better-profanity>=0.7.0"],
     },

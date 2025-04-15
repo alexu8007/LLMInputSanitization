@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: llm-input-sanitizer
-Version: 0.1.0
+Version: 0.2.0
 Summary: A package for sanitizing and securing user inputs to LLMs
 Home-page: https://github.com/alexu8007/llm-input-sanitizer
 Author: Alex
@@ -17,6 +17,9 @@ Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.7
 Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nltk>=3.6.0
+Requires-Dist: better-profanity>=0.7.0
 Provides-Extra: dev
 Requires-Dist: pytest>=6.0; extra == "dev"
 Requires-Dist: black; extra == "dev"
@@ -28,7 +31,9 @@ Dynamic: classifier
 Dynamic: description
 Dynamic: description-content-type
 Dynamic: home-page
+Dynamic: license-file
 Dynamic: provides-extra
+Dynamic: requires-dist
 Dynamic: requires-python
 Dynamic: summary
 
