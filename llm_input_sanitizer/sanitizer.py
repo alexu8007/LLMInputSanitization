@@ -7,8 +7,10 @@ from enum import Enum
 
 try:
     nltk.data.find('tokenizers/punkt')
+    nltk.data.find('tokenizers/punkt_tab')
 except LookupError:
     nltk.download('punkt', quiet=True)
+    nltk.download('punkt_tab', quiet=True)
 
 class SanitizationAction(Enum):
     """Enum for different sanitization actions based on risk level."""
